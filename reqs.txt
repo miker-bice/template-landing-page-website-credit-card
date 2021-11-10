@@ -1,0 +1,9 @@
+fonts:
+SFDisplay semibold
+SFProText bold
+SFCompactDisplay semibold
+Gilroy Bold
+
+colors:
+#096aed
+#bfcee1

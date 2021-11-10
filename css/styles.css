@@ -1,9 +1,67 @@
 /* variables */
+:root{
+    --primary: #096aed;
+    --secondary: #bfcee1;
+}
 
 /* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+em{
+    font-style: normal;
+}
 
 /* fonts */
 
 /* base styles */
+.container-fluid{
+    padding: 0 60px;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-self: center;
+}
+.grid{
+    display: grid;
+}
+.button-primary{
+    display: inline-block;
+    color: #fff;
+    background-color: var(--primary);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.button-primary:hover{
+    background-color: #0d76ff;
+}
+.button-secondary{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    background-color: var(--secondary);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.button-secondary:hover{
+    background-color: #ceddf0;
+}
+.nav-icon{
+    width: 70%;
+}
 
 /* desktop styles */
